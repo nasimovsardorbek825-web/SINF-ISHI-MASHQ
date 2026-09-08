@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #111827;
+}
+
+
+
+
+.nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav b {
+    color: #2563eb;
+    font-size: 20px;
+}
+
+.nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+.nav button {
+    background: #2563eb;
+    color: white;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 7px;
+}
+
+
+
+
+.hero {
+    width: 900px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero div {
+    width: 50%;
+}
+
+.hero small {
+    color: #2563eb;
+    background: #eef4ff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.hero img {
+    width: 450px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn {
+
+    padding: 13px 20px;
+    border-radius: 7px;
+}
+
+.btn2 {
+    padding: 13px 20px;
+    border-radius: 7px;
+}
+
+.btn {
+    background: #2563eb;
+    color: white;
+    border: 1px solid #2563eb;
+}
+
+.btn2 {
+    background: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+
+
+
+.box {
+    width: 750px;
+    margin: auto;
+    padding: 25px;
+    background: #f1f5ff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box h2 {
+    color: #2563eb;
+    margin: 5px;
+}
+
+.box p {
+    color: #666;
+}
+
+
+
+.why {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.why>p {
+    color: #777;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 280px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.card p {
+    color: #777;
+    line-height: 1.5;
+}
+
+
+
+
+.blue {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.blue input {
+    width: 300px;
+    padding: 13px;
+    border: 0;
+    border-radius: 7px;
+}
+
+.blue button {
+    padding: 13px 20px;
+    border: 0;
+    border-radius: 7px;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    color: #777;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+
+    .nav {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav a {
+        margin: 5px;
+    }
+
+    .hero {
+        width: 90%;
+        margin: 40px auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero div {
+        width: 100%;
+    }
+
+    .hero img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .btn2 {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .box {
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .blue {
+        padding: 40px 20px;
+    }
+
+    .blue input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
